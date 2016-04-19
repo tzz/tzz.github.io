@@ -1,9 +1,56 @@
-<code>
-(defun save-all-buffers ()
-  "Unconditionally save all modified buffers."
-  (interactive)
-  (save-some-buffers 1)
-  (message "All buffers saved"))
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.47 in css mode. -->
+<html>
+    <head>
+        <title>*scratch*</title>
+        <style type="text/css">
+         <!--
+         body {
+             color: #ffffff;
+             background-color: #000000;
+         }
+         .doc {
+             /* font-lock-doc-face */
+             color: #99ad6a;
+         }
+         .function-name {
+             /* font-lock-function-name-face */
+             color: #fad07a;
+         }
+         .keyword {
+             /* font-lock-keyword-face */
+             color: #8197bf;
+         }
+         .rainbow-delimiters-depth-1 {
+             /* rainbow-delimiters-depth-1-face */
+             color: #8c8c8c;
+         }
+         .string {
+             /* font-lock-string-face */
+             color: #99ad6a;
+         }
 
-(add-hook 'focus-out-hook 'save-all-buffers)
-</code>
+         a {
+             color: inherit;
+             background-color: inherit;
+             font: inherit;
+             text-decoration: inherit;
+         }
+         a:hover {
+             text-decoration: underline;
+         }
+         -->
+        </style>
+    </head>
+    <body>
+        <pre>
+            <span class="rainbow-delimiters-depth-1"> (</span><span class="keyword">defun</span> <span class="function-name">save-all-buffers</span> <span class="rainbow-delimiters-depth-1">()</span>
+            <span class="doc">"Unconditionally save all modified buffers."</span>
+            <span class="rainbow-delimiters-depth-1">(</span><span class="keyword">interactive</span><span class="rainbow-delimiters-depth-1">)</span>
+            <span class="rainbow-delimiters-depth-1">(</span>save-some-buffers 1<span class="rainbow-delimiters-depth-1">)</span>
+            <span class="rainbow-delimiters-depth-1">(</span>message <span class="string">"All buffers saved"</span><span class="rainbow-delimiters-depth-1">))</span>
+ 
+            <span class="rainbow-delimiters-depth-1"> (</span>add-hook 'focus-out-hook 'save-all-buffers<span class="rainbow-delimiters-depth-1">)</span>
+        </pre>
+    </body>
+</html>
