@@ -1,1 +1,9 @@
-NOT EVEN A SITE
+<code>
+(defun save-all-buffers ()
+  "Unconditionally save all modified buffers."
+  (interactive)
+  (save-some-buffers 1)
+  (message "All buffers saved"))
+
+(add-hook 'focus-out-hook 'save-all-buffers)
+</code>
